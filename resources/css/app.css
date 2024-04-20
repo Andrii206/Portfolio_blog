@@ -1,0 +1,21 @@
+.pagination .page-link {
+    color: black; /* чорний колір тексту посилань */
+}
+
+.pagination .page-link:hover {
+    color: yellow; /* жовтий колір тексту посилань при наведенні */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: yellow; /* жовтий фон активного елементу */
+    border-color: black; /* чорний колір меж елементу */
+}
+
+.pagination .page-item.disabled .page-link {
+    color: grey; /* сірий колір тексту відключених посилань */
+}
+
+.pagination .page-link:focus {
+    box-shadow: none; /* відключаємо тінь при фокусуванні */
+    outline: none; /* відключаємо контур при фокусуванні */
+}
